@@ -1,0 +1,12 @@
+{
+  "rules": {
+    ".read": "auth != null",
+    ".write": "auth != null",
+    "parametrosSistema": {
+    	"nombreApp": {
+    		".read": true,
+    		".write": "auth != null"
+    	}
+    }
+  }
+}
