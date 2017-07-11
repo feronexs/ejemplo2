@@ -105,11 +105,7 @@ class Header extends Component {
 			      <Nav>
 			        <NavItem eventKey={1} href="#"><Link to="/adminGeneral">Administracion</Link></NavItem>
 			        <NavDropdown eventKey={3} title="Categorias" id="basic-nav-dropdown">
-			          <MenuItem eventKey={3.1}><Link to="/crearCategorias">Nueva</Link></MenuItem>
-			          <MenuItem eventKey={3.2}><Link to="/consultaCategorias">Consulta</Link></MenuItem>
-			          <MenuItem eventKey={3.3}>Something else here</MenuItem>
-			          <MenuItem divider />
-			          <MenuItem eventKey={3.3}>Separated link</MenuItem>
+			          <MenuItem eventKey={3.1}><Link to="/adminCategorias">Administrar</Link></MenuItem>
 			        </NavDropdown>
 			        <NavDropdown eventKey={3} title="Grupos" id="basic-nav-dropdown">
 			          <MenuItem eventKey={3.1}>Action</MenuItem>

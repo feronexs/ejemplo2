@@ -10,10 +10,10 @@ import Home             from './js/home.js';
 import administracion   from './js/administracion/adminGeneral.js';
 
 /*Categorias*/
-import actCat           from './js/categorias/actualizarCategoria.js';
-import consultaCat      from './js/categorias/consultaCategorias.js';
-import elimCat          from './js/categorias/eliminarCategoria.js';
-import crearCat         from './js/categorias/crearCategoria.js';
+import actCat           from './js/categorias/actualizarCategoria.jsx';
+import consultaCat      from './js/categorias/consultaCategorias.jsx';
+import elimCat          from './js/categorias/eliminarCategoria.jsx';
+import crearCat         from './js/categorias/crearCategoria.jsx';
 /*Categorias*/
 
 /*Grupos Usuarios*/
@@ -46,8 +46,7 @@ const nameRef = firebase.database().ref().child('parametrosSistema').child('nomb
       <Route exact path='/' component={FormAuth2}/>
       <Route path='/SesionUser' component={Home}/>
       <Route path='/adminGeneral' component={administracion}/>
-      <Route path='/crearCategorias' component={crearCat}/>
-      <Route path='/consultaCategorias' component={consultaCat}/>
+      <Route path='/adminCategorias' component={crearCat}/>
     </Switch>
   </main>
 )

@@ -109,7 +109,7 @@ tituloRef.on('value', snapshot => {
   render() {
     return (
       <div>
-          <div id="contenedorP">
+          <div className="contenedorP">
             <form>
             <center><h2>Parámetros Generales</h2><br/></center>
 			        <FormGroup
